@@ -10,6 +10,8 @@ var express = require('express'),
 
 // public directory
 app.use(express.static(path.join(__dirname, 'public')));
+
+// parse json requests
 app.use(bodyParser.json());
 
 
@@ -23,7 +25,9 @@ app.use(function(err, req, res, next) {
 });
 
 // Routes
-
+app.post('/api/locations-from-addresses', function (req, res, next) {
+    console.log('you got me!!!');
+})
 
 //set the port
 var app_port = process.env.PORT || 3000;
