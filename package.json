@@ -1,0 +1,32 @@
+{
+  "name": "left-field-locator",
+  "version": "1.0.0",
+  "description": "Code challenge for Left Field",
+  "main": "app.js",
+  "dependencies": {
+    "express": "4.10.0",
+    "body-parser": "~1.0.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-ng-annotate": "^0.5.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^1.0.0-alpha.3",
+    "gulp-sourcemaps": "^1.5.0",
+    "gulp-uglify": "^1.2.0",
+    "node-geocoder": "^2.21.1",
+    "node-sass": "^3.0.0"
+  },
+  "engines": {
+    "node": "4.1.1",
+    "npm": "2.1.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ericwestbrook/left-field-locator.git"
+  },
+  "author": "Eric Westbrook",
+  "license": "None",
+  "bugs": {
+    "url": "https://github.com/ericwestbrook/left-field-locator/issues"
+  },
+  "homepage": "https://github.com/ericwestbrook/left-field-locator"
+}
