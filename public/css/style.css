@@ -80,4 +80,9 @@ button.blue {
 
 #sorted-locations li {
 	padding: 12px;
+	list-style-type: decimal;
+}
+
+.distance {
+	color: orange;
 }
