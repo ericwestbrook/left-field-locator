@@ -18,6 +18,10 @@
 			<input type="text" ng-model="homeLocation" g-places-autocomplete />
 			<button class="blue" ng-click="searchAndSort()">SUBMIT</button>
 			<button class="gray" ng-click="reset()">RESET</button>
+
+			<ol id="sorted-locations">
+				<li ng-repeat="location in sortedLocations">{{ location.formattedAddress }} - <span class="distance">{{ location.distance }} miles</span></li>
+			</ol>
 		</div>
 
 	</body>

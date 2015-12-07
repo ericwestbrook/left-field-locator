@@ -70,3 +70,14 @@ button {
 button.blue {
 	background-color : #5db4d9;
 }
+
+#sorted-locations {
+	text-align : left;
+	width: 460px;
+	position: relative;
+	margin: 60px auto;
+}
+
+#sorted-locations li {
+	padding: 12px;
+}
