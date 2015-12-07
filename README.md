@@ -21,4 +21,4 @@ I abstracted the code to allow you to input any location you like to compare. Th
 
 ## Next steps
 
-I stood true to only using a couple of hours on this. If I was going to spend more, I would first implement gulp with sass & uglify (of which I have already put the appropriate libraries in place). I would split the controllers and services for the front-end to separate files that are then compiled. I would also visualize this by simply adding a google world map embed and plotting the points of search locations with lines leading to the home location.
+I stayed true to only using a couple of hours on this. If I was going to spend more, I would first implement gulp with sass & uglify (of which I have already put the appropriate libraries in place). I would split the controllers and services for the front-end to separate files that are then compiled. I would also visualize this by simply adding a google world map embed and plotting the points of search locations with lines leading to the home location.
