@@ -89,4 +89,6 @@ angular.module('leftFieldLocator', ['google.places'])
       $scope.searchAndSort();
     };
 
+    $scope.searchAndSort();
+
   }]);
