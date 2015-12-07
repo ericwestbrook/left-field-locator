@@ -55,6 +55,7 @@ angular.module('leftFieldLocator', ['google.places'])
       for (var i=0; i < $scope.geoLocations.length; i++) {
         //first find the distances of each location
         $scope.geoLocations[i].distance = $scope.calcDistance($scope.geoLocations[i], $scope.homeGeo);
+        $scope.geoLocations[i].searchedLocation = $scope.compareLocations[i];
       }
       $scope.sortedLocations = angular.copy($scope.geoLocations);
       $scope.sortedLocations.sort(function(a, b) {

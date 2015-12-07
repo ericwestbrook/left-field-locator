@@ -20,7 +20,7 @@
 			<button class="gray" ng-click="reset()">RESET</button>
 
 			<ol id="sorted-locations" type="1">
-				<li ng-repeat="location in sortedLocations">{{ location.formattedAddress }} - <span class="distance">{{ location.distance|number:1 }} miles</span></li>
+				<li ng-repeat="location in sortedLocations">{{ location.searchedLocation }} - <span class="distance">{{ location.distance|number:1 }} miles</span></li>
 			</ol>
 		</div>
 
